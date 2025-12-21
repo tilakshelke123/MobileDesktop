@@ -1,5 +1,6 @@
 Feature: login
 
+  @login
   Scenario:
     Given I am on the login page
     When I enter username "testUser"
@@ -18,8 +19,8 @@ Feature: login
       | testUser2 | Pass12345 | Submit |
 
   Scenario: Integer Outline
-   
     When I calculate  with 50 and 20
-    
 
-   
+  @login
+  Scenario: tag outline
+    Given I am on the login page
