@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite" thread-count="3">
+  <test name="Test">
+    <classes>
+      <class name="com.test.Feather1"/>
+     <!--  <class name="com.test.Feather2"/>
+      <class name="com.test.GroupTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
