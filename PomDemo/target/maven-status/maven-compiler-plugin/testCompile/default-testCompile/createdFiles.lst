@@ -1,0 +1,5 @@
+com\LoginPage\LoginPageAndroid.class
+com\LoginPage\LoginPageIos.class
+com\BasePAge\BasePage.class
+com\LoginPage\LoginPage.class
+com\Test\Test1.class
